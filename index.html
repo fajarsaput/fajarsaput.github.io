@@ -9,6 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
     <!--Boststrap css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--AOS-->
 
     <!--My CSS-->
     <link rel="stylesheet" href="style.css" />
@@ -32,7 +36,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#galery">Future Goals</a>
+              <a class="nav-link" href="#galery">Friends</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -59,10 +63,10 @@
           </div>
         </div>
           <div class="row justify-content-center fs-4 text-center">
-            <div class="col-4 mb-4">
+            <div class="col-4 mb-4" data-aos="fade-right" data-aos-duration="1000">
               <p>Introduce my name is Fajar Saputro I come from Kebumen, I am eighteen years old. I am the first child of two siblings. </p>
             </div>
-            <div class="col-4 mb-4">
+            <div class="col-4 mb-4" data-aos="fade-left" data-aos-duration="1000">
               <p>I am a student of the Yogyakarta University of Technology batch two thousand twenty one semester one, Computer Engineering Study Program, Faculty of Science and Technology
               </p>
             </div>
@@ -78,47 +82,47 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Future Goals</h2>
+            <h2>Friends</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="50">
               <img src="img/galery/1.jpg.jpg" class="card-img-top" alt="galery1"/>
               <div class="card-body">
-                <p class="card-text">.</p>
+                <p class="card-text">Ardi Subakti.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="50">
               <img src="img/galery/2.jpg.jpg" class="card-img-top" alt="galery1"/>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Sofia Indriyani.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="50">
               <img src="img/galery/3.jpg.jpg" class="card-img-top" alt="galery1"/>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Indah Setiowati.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="50">
               <img src="img/galery/4.jpg.jpg" class="card-img-top" alt="galery1"/>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Aditya Alifianda.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/galery/5.jpg.jpg" class="card-img-top" alt="galery1"/>
+            <div class="card" data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="50">
+              <img src="img/galery/5.jpg.png" class="card-img-top" alt="galery1"/>
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Cuma ada ini foto bersama.</p>
               </div>
             </div>
           </div>
@@ -142,9 +146,9 @@
                 <div class="medsos">
                   <div class="container">
                     <ul>
-                      <li><a href=""><i class="bi bi-facebook"></i></a></li>
-                      <li><a href="mywa.link/rnxo6x3n"><i class="bi bi-whatsapp"></i></a></li>
-                      <li><a href="https://www.instagram.com/jarsp_17/"><i class="bi bi-instagram"></i></a></li>
+                      <li><a href=""><i class="bi bi-facebook"></i> Facebook</a></li>
+                      <li><a href="https://mywa.link/rnxo6x3n"><i class="bi bi-whatsapp"></i> Whatsapp</a></li>
+                      <li><a href="https://www.instagram.com/jarsp_17/"><i class="bi bi-instagram"> Instagram</i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -161,6 +165,11 @@
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/jarsp_17/" class="text-white fw-bold">Fajar Saputro</a></p>
     </footer>
     <!--Footer-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
